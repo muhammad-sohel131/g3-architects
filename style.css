@@ -1,9 +1,77 @@
-/* @import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
 .work-sans-font {
     font-family: "Work Sans", sans-serif;
     font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
-  }
-  
+}
+
+/* colors */
+.dark-1 {
+    color: rgb(19, 19, 19);
+}
+
+.dark-2 {
+    color: rgb(66, 66, 66);
+}
+
+.dark-3 {
+    color: rgb(114, 114, 114);
+}
+
+.orange {
+    color: rgb(255, 144, 14);
+}
+
+.primary-bg {
+    background: rgba(255, 144, 14, 0.1);
+}
+
+.secondary-bg {
+    background-color: rgb(255, 244, 231);
+}
+
+/* Shared styles */
+.flex {
+    display: flex;
+}
+
+.container {
+    max-width: 1440px;
+    margin: auto;
+}
+
+/* nav bar */
+.nav-bar {
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+}
+
+.nav-items {
+    list-style: none;
+    width: 477px;
+    justify-content: space-between;
+}
+
+.nav-link {
+    text-decoration: none;
+   
+font-size: 18px;
+font-weight: 500;
+line-height: 26px;
+}
+
+.brand {
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 53px;
+    text-align: center;
+}
